@@ -1,11 +1,23 @@
-<<<<<<< HEAD
 *.gem
-.bundle
-.sass-cache
-_site
-Gemfile.lock
-=======
-_site/
-.sass-cache/
+*.swp
+*~
+.DS_Store
+.analysis
+.bundle/
+.byebug_history
 .jekyll-metadata
->>>>>>> f0bc4c627dca07db1560e136f45c048f97b266f5
+.ruby-gemset
+.ruby-version
+.sass-cache
+/test/source/file_name.txt
+/vendor
+Gemfile.lock
+_site/
+bin/
+bbin/
+coverage
+gh-pages/
+pkg/
+site/_site/
+test/dest
+tmp/*
